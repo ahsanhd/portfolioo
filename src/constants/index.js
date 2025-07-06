@@ -24,178 +24,153 @@ import {
   threejs,
   epikprojectimg,
   koerberprojectimg,
-  shapeprojectimg
-} from "../assets"
+  shapeprojectimg,
+  simplybestacademy,
+} from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "work",
-    title: "Work"
+    title: "Work",
   },
   {
     id: "contact",
-    title: "Contact"
-  }
-]
+    title: "Contact",
+  },
+];
 
 const services = [
   {
     title: "Web Developer",
-    icon: web
+    icon: web,
   },
   {
     title: "React Native Developer",
-    icon: mobile
+    icon: mobile,
   },
   {
     title: "Backend Developer",
-    icon: backend
+    icon: backend,
   },
   {
     title: "Content Creator",
-    icon: creator
-  }
-]
+    icon: creator,
+  },
+];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: html
+    icon: html,
   },
   {
     name: "CSS 3",
-    icon: css
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: javascript
+    icon: javascript,
   },
   {
     name: "TypeScript",
-    icon: typescript
+    icon: typescript,
   },
   {
     name: "React JS",
-    icon: reactjs
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-    icon: redux
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind
+    icon: tailwind,
   },
   {
     name: "Node JS",
-    icon: nodejs
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: mongodb
+    icon: mongodb,
   },
   {
     name: "Three JS",
-    icon: threejs
+    icon: threejs,
   },
   {
     name: "git",
-    icon: git
+    icon: git,
   },
   {
     name: "figma",
-    icon: figma
+    icon: figma,
   },
   {
     name: "docker",
-    icon: docker
-  }
-]
+    icon: docker,
+  },
+];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Grafdom, UAE",
-    icon: grafdom,
-    iconBg: "#383E56",
-    date: "Jan 2017 - June 2018",
+    title: "Frontend Engineer",
+    company_name: "Simply Best Academy (Remote)",
+    icon: simplybestacademy,
+    iconBg: "#0000",
+    date: "May 2022 - Nov 2023",
     points: [
-      "Built company's product Whatspay on ReactJS & mobile application on React-Native",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
-    ]
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with product managers to resolve blockers, communicating directly with clients for requirments and sprint planning.",
+    ],
   },
   {
-    title: "Full Stack Engineer",
-    company_name: "Sofit Consultancy Ltd",
-    icon: sofit,
-    iconBg: "#E6DEDD",
-    date: "June 2018 - Nov 2022",
-    points: [
-      "Responsible for the architecture, design and development of high volume web service applications.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Mentoring Junior Interns and helping them to write optimized, maintainable and reusable code",
-      "Worked with UI/UX design teams to improve existing applications and shifted whole application to NextJS with 20% more performance on lighthouse."
-    ]
-  },
-  {
-    title: "Senior Frontend Engineer (Contract)",
+    title: "Frontend Engineer",
     company_name: "SHAPE Global Ltd, UK",
     icon: shape,
     iconBg: "#383E56",
-    date: "Nov 2022 - Present",
+    date: "Nov 2023 - Present",
     points: [
       "Built cross-browser compatible Web-application of company's product SHAPE from scartch on React.",
       "Moved Company's own website from PHP to GatsbyJS from scratch resulting in better user experience for static content",
       "Expertly utilize REST web services technologies to design different in-house products.",
       "Implemented Customized charts for visualizing complex data & Animations using gsap",
-      "Mentoring frontend team, conducting Pull Request reviews of Junior team members, responsible for managing the CI/CD pipelines on Azure DevOps"
-    ]
+      "Mentoring frontend team, conducting Pull Request reviews of Junior team members, responsible for managing the CI/CD pipelines on Azure DevOps",
+    ],
   },
-  {
-    title: "Senior Frontend Engineer",
-    company_name: "We Know Buis, UAE",
-    icon: weknow,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with product managers to resolve blockers, communicating directly with clients for requirments and sprint planning."
-    ]
-  }
-]
+];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Ahsan proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Koerber Pharma",
-    image: "https://randomuser.me/api/portraits/women/4.jpg"
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Hamza does.",
+      "I've never met a web developer who truly cares about their clients' success like Ahsan does.",
     name: "Ali Khan",
     designation: "CEO",
     company: "SHAPE",
-    image: "https://randomuser.me/api/portraits/men/5.jpg"
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Hamza optimized our website, our load times improved drastically. We can't thank them enough!",
+      "After Ahsan optimized our website, our load times improved drastically. We can't thank them enough!",
     name: "Maryia Halauniova",
     designation: "COO",
     company: "We Know Buis",
-    image: "https://randomuser.me/api/portraits/women/6.jpg"
-  }
-]
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
 
 const projects = [
   {
@@ -205,19 +180,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "nodejs",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: epikprojectimg,
-    source_code_link: "https://my.epik.io/"
+    source_code_link: "https://my.epik.io/",
   },
   {
     name: "Koerber Pharma",
@@ -226,19 +201,19 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "graphql",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "scss",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: koerberprojectimg,
-    source_code_link: "https://showroom.koerber-pharma.live/welcome"
+    source_code_link: "https://showroom.koerber-pharma.live/welcome",
   },
   {
     name: "SHAPE",
@@ -247,20 +222,20 @@ const projects = [
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "Azure DevOps",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "redux",
-        color: "pink-text-gradient"
-      }
+        color: "pink-text-gradient",
+      },
     ],
     image: shapeprojectimg,
-    source_code_link: "https://shapepowered.com/"
-  }
-]
+    source_code_link: "https://shapepowered.com/",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
